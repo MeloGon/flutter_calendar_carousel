@@ -482,7 +482,7 @@ class _CalendarState<T extends EventInterface>
     final markedDatesMap = widget.markedDatesMap;
     return Container(
       //delete height to return original way
-      height: 20,
+      height: 15,
       margin: EdgeInsets.all(widget.dayPadding),
       child: GestureDetector(
         onLongPress: () => _onDayLongPressed(now),
