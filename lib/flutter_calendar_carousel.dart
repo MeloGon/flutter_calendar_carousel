@@ -378,6 +378,9 @@ class _CalendarState<T extends EventInterface>
                   }
                 : null,
           ),
+          Divider(
+            color: Colors.grey.withOpacity(.2),
+          ),
           WeekdayRow(
             firstDayOfWeek,
             widget.customWeekDayBuilder,
